@@ -1,0 +1,19 @@
+GET http://localhost:3001/api/persons/
+
+###
+GET http://localhost:3001/api/persons/663457c9d454115b81b9216f
+
+###
+GET http://localhost:3001/api/persons/693457c9d454115b81b9216f
+
+###
+GET http://localhost:3001/api/persons/someInvalidId
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "SAMMY",
+    "number": "123455"
+}
