@@ -17,3 +17,12 @@ content-type: application/json
     "name": "SAMMY",
     "number": "123455"
 }
+
+###
+POST http://localhost:3001/api/persons/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "a",
+    "number": "123455"
+}
